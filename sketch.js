@@ -74,8 +74,8 @@ function marcaPonto(){
   if (yAtor < 15){
     meusPontos += 1;
     somDoPonto.play();
-    voltaAtorParaPosicaoInicial();
-    velocidadeCarros = [getRandomArbitrary(1, meusPontos+1), getRandomArbitrary(1, meusPontos+1), getRandomArbitrary(1, meusPontos+1), getRandomArbitrary(1, meusPontos+1), getRandomArbitrary(1, meusPontos+1), getRandomArbitrary(1, meusPontos+1)];
+    //voltaAtorParaPosicaoInicial();
+   // velocidadeCarros = [getRandomArbitrary(1, meusPontos+1), getRandomArbitrary(1, meusPontos+1), getRandomArbitrary(1, meusPontos+1), getRandomArbitrary(1, meusPontos+1), getRandomArbitrary(1, meusPontos+1), getRandomArbitrary(1, meusPontos+1)];
   }
 }
 
@@ -160,3 +160,5 @@ function draw() {
   incluiPontos();
   marcaPonto();
 }
+setup();
+draw();
